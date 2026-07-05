@@ -1,0 +1,16 @@
+﻿fase,home_team,away_team,clasifica_local,prediccion_modelo,prob_equipo_1,prob_equipo_2,clasificado_real,clasificado_predicho,resultado_prediccion
+Octavos de final,Netherlands,United States,1,1,0.6841903056888416,0.3158096943111581,Netherlands,Netherlands,CORRECTO
+Octavos de final,Argentina,Australia,1,1,0.667097978187077,0.33290202181292294,Argentina,Argentina,CORRECTO
+Octavos de final,France,Poland,1,1,0.6341026104309662,0.365897389569034,France,France,CORRECTO
+Octavos de final,England,Senegal,1,1,0.5899549676794976,0.4100450323205024,England,England,CORRECTO
+Octavos de final,Japan,Croatia,0,0,0.43976763644522293,0.5602323635547772,Croatia,Croatia,CORRECTO
+Octavos de final,Brazil,South Korea,1,1,0.755680183089108,0.24431981691089183,Brazil,Brazil,CORRECTO
+Octavos de final,Portugal,Switzerland,1,1,0.7177215376489128,0.2822784623510873,Portugal,Portugal,CORRECTO
+Octavos de final,Morocco,Spain,1,1,0.5314991722342435,0.4685008277657566,Morocco,Morocco,CORRECTO
+Cuartos de final,Netherlands,Argentina,0,1,0.5752652774483018,0.4247347225516982,Argentina,Netherlands,INCORRECTO
+Cuartos de final,Croatia,Brazil,1,0,0.2794009877288262,0.7205990122711741,Croatia,Brazil,INCORRECTO
+Cuartos de final,Morocco,Portugal,1,0,0.34874765537461266,0.6512523446253874,Morocco,Portugal,INCORRECTO
+Cuartos de final,England,France,0,1,0.7401529149649132,0.2598470850350867,France,England,INCORRECTO
+Semifinal,Argentina,Croatia,1,1,0.7088624647577014,0.2911375352422984,Argentina,Argentina,CORRECTO
+Semifinal,France,Morocco,1,1,0.694874827061986,0.30512517293801383,France,France,CORRECTO
+Final,Argentina,France,1,1,0.6827243155920683,0.31727568440793186,Argentina,Argentina,CORRECTO

@@ -1,0 +1,20 @@
+Modelo seleccionado:
+SVM
+
+Accuracy:
+0.7333
+
+F1-score:
+0.8333
+
+AUC:
+0.5556
+
+Validación Mundial 2022:
+11 aciertos de
+15 partidos.
+
+Porcentaje de acierto:
+73.33%
+
+El modelo y los resultados fueron guardados correctamente.
