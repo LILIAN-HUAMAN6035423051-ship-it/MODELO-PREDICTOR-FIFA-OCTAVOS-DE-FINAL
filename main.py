@@ -706,48 +706,59 @@ def main():
 
     cruces_2026 = [
 
-        ("Portugal", "Spain"),
+    ("Portugal", "Spain"),
 
-        ("United States", "Belgium"),
+    ("United States", "Belgium"),
 
-        ("Brazil", "Norway"),
+    ("Brazil", "Norway"),
 
-        ("Mexico", "England"),
+    ("Mexico", "England"),
 
-        ("Argentina", "Egypt"),
+    ("Argentina", "Egypt"),
 
-        ("Switzerland", "Colombia")
+    ("Switzerland", "Colombia"),
 
-    ]
+    ("Canada", "Morocco"),
 
+    ("France", "Paraguay")
+
+]
 
     traduccion_equipos = {
 
-        "Portugal": "Portugal",
+    "Portugal": "Portugal",
 
-        "Spain": "España",
+    "Spain": "España",
 
-        "United States": "Estados Unidos",
+    "United States": "Estados Unidos",
 
-        "Belgium": "Bélgica",
+    "Belgium": "Bélgica",
 
-        "Brazil": "Brasil",
+    "Brazil": "Brasil",
 
-        "Norway": "Noruega",
+    "Norway": "Noruega",
 
-        "Mexico": "México",
+    "Mexico": "México",
 
-        "England": "Inglaterra",
+    "England": "Inglaterra",
 
-        "Argentina": "Argentina",
+    "Argentina": "Argentina",
 
-        "Egypt": "Egipto",
+    "Egypt": "Egipto",
 
-        "Switzerland": "Suiza",
+    "Switzerland": "Suiza",
 
-        "Colombia": "Colombia"
+    "Colombia": "Colombia",
 
-    }
+    "Canada": "Canadá",
+
+    "Morocco": "Marruecos",
+
+    "France": "Francia",
+
+    "Paraguay": "Paraguay"
+
+}
 
 
     # ========================================================
