@@ -776,12 +776,34 @@ def main():
         scaler=scaler
     )
 
-
     tabla_final = traducir_resultados(
         resultados_2026,
         traduccion_equipos
-    )
+    ) 
+    # ========================================================
+    # ESTIMACIÓN DEL MARCADOR
+    # ========================================================
 
+    def estimar_marcador(prob1, prob2):
+
+        diferencia = abs(prob1 - prob2)
+
+        if diferencia >= 0.45:
+            return "3-0"
+        elif diferencia >= 0.30:
+            return "2-0"
+        elif diferencia >= 0.15:
+            return "2-1"
+        else:
+            return "1-0"
+
+    tabla_final["Marcador estimado"] = tabla_final.apply(
+        lambda fila: estimar_marcador(
+            fila["Probabilidad Equipo 1"],
+            fila["Probabilidad Equipo 2"]
+        ),
+        axis=1
+    )
 
     print("\n")
     print("=" * 100)
